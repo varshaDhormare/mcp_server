@@ -2,7 +2,7 @@
   "name": "mcp-ts-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts",
     "dev": "ts-node index.ts",
