@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "target": "es2022",                     /* Enable top-level await and modern JS features */
+    "module": "es2022",                     /* Use native ES modules */
+    "moduleResolution": "node",            /* Resolve modules like Node.js */
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "outDir": "dist"
+    "skipLibCheck": true
   },
- "ts-node": {
-  "experimentalSpecifierResolution": "node",
-  "esm": true
-}
-,
-  "include": ["./"]
+  "include": ["index.ts"]
 }
