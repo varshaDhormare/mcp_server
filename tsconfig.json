@@ -10,8 +10,10 @@
     "strict": true,
     "outDir": "dist"
   },
-  "ts-node": {
-    "experimentalSpecifierResolution": "node"
-  },
+ "ts-node": {
+  "experimentalSpecifierResolution": "node",
+  "esm": true
+}
+,
   "include": ["./"]
 }
